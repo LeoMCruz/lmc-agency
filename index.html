@@ -2,28 +2,36 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maxmum-scale = 1, user-scalable = no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale = 1, user-scalable = no">
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <link rel="stylesheet" href="css/styles.css">
     <title>Ag Cruz</title>
 </head>
 <body>
-    <header>
-        <p>Agência Cruz</p> 
+    <header class="login-header">
+        <div class="header-logo">
+            <img src="/img/Logo.png" alt="Logo" class="logo">
+            <span class="logo-text">Agência Cruz</span>
+        </div>
+        <div class="menu hidden">
+            <a href="#">Contato</a>
+            <a href="#" class="logout">Sair</a>
+        </div>    
+        
     </header>
     <div id="main-container">
         <div id="login-container">
             <div id="login-content">
-                <h2>Entre com seu email e senha</h2>
+                <h1>Entre com seu email e senha</h1>
                 <input type="email" id="email" name="email" required placeholder="Email">
                 <input type="password" id="password" name="password" required placeholder="Senha">
-                <p>Texto que irá mudar</p>
-                <input type="submit" value="Entrar">
+                <p id="loginCheck">Texto que irá mudar</p>
+                <button type="submit" value="Entrar">Entrar</button>
                 <hr>
+                <p id="createAccount">Não possui uma conta? <a href="/create-account">Criar</a></p>
             </div>
-            <p>Não possui uma conta? <a href="/create-account">Criar</a></p>
         </div>
-        <hr>
+        <hr class="middle-between-containers">
         <div id="wellcome-container">
             <div id="wellcome-content">
                 <p>Bem-vindo à agência Cruz</p>

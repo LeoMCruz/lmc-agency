@@ -9,15 +9,66 @@
 header{
     background-color: black;
     color: white;
-    width: 100%;
+    width: 100vw;
     height: 109px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 6% 0 6%;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
 }
 
-#main-container hr{
+.header-logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 47px;
+    height: 47px;
+    margin-right: 10px;
+}
+
+.logo-text{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+.menu a{
+    margin-right: 20px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.logout{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 12px;
+    background-color:#FE8100;
+    padding: 10px 20px 10px 60px;
+    width: 163px;
+    height: 55px;
+}
+
+.hidden {
+    display: none;
+}
+
+.middle-between-containers{
     border: solid 1px;
     outline: none;
     border-color: #D8D8D8;
-    height: 100%;
+    height: 893px;
     margin-left: 50px;
     margin-right: 50px;
 }
@@ -25,13 +76,13 @@ header{
 #main-container{
     padding: 3%;
     display: flex;
-    flex-direction: row;
-    height: 90vh;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100vh;
 }
 
 #login-container{
-    width: 30%;
-    display: block;
+    width: 621px;
     border-radius: 29px;
     background-color: #FBFBFB;
     text-align: center;
@@ -40,31 +91,33 @@ header{
 }
 
 #login-content{
-    width: 400px;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 40px;
-    margin-bottom: 20px;
+    margin-top: 10%;
+    margin-bottom: 5%;
     text-align: left;
 }
 
 #login-content hr{
     width: 100%;
-    margin-left: 0;
-    margin-top: 70px;
-    margin-bottom: 70px;
+    margin: 7rem 0 7rem 0;
     border: solid 1px;
     outline: none;
     border-color: #D8D8D8;
     align-items: center;
 }
 
-#login-content p{
+#loginCheck{
     margin-top: -30px;
     margin-bottom: 30px;
 }
 
-#login-content input[type="submit"]{
+#createAccount{
+    text-align: center;
+}
+
+#login-content button{
     background-color: #FE8100;
     color: white;
     border: none;
@@ -73,14 +126,15 @@ header{
     font-size: 17px;
     display: block;
     padding: 20px;
-    width: 100%;
+    width: 468px;
+    height: 70px;
     margin-bottom: 30px;
     cursor: pointer;
 }
 
-#login-content h2{
+#login-content h1{
     margin-bottom: 100px;
-    width: 330px;
+    width: 354px;
     font-size: 30px;
     font-weight: bold;
     text-align: left;
@@ -94,12 +148,13 @@ header{
     font-size: 17px;
     display: block;
     padding: 20px;
-    width: 100%;
+    width: 468px;
+    height: 70px;
     margin-bottom: 30px;
 }
 
 #wellcome-container{
-    width: 42%;
+    width: 734px;
     border-radius: 26px;
     background-image: url('../img/wellcome.png');
     background-position-x: -250px;
@@ -124,12 +179,11 @@ header{
 }
 
 #login-container, #wellcome-container{
-    flex: 1 1 0;
-    height: 100%;
+    height: 893px;
     text-align: center;
 }
 
-a{
+#login-content a{
     color: #FE8100;
     font-weight: bold;
     text-decoration: none;
