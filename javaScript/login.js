@@ -19,12 +19,8 @@ function clearMessage(){
     loginMessage.textContent = "";
 }
 
-form.addEventListener('submit', (e)=>{
+function inputsCheck(e) {
     e.preventDefault();
-    clearMessage;    
-});
-
-function inputsCheck() {
     const emailValid = emailCheck(email.value);
     const passwordValid = passwordCheck(password.value);
 
@@ -46,5 +42,4 @@ function inputsCheck() {
     }
 }
 
-email.addEventListener('keyup', inputsCheck);
-password.addEventListener('keyup', inputsCheck);
+form.addEventListener('submit',inputsCheck );

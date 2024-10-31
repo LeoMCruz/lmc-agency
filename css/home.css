@@ -1,0 +1,20 @@
+div {
+    border: 1px solid;
+}
+
+.banner{
+    width: 100vw;
+    height: 878px;
+}
+
+.ourServices{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.services{
+    width: 246px;
+    height: 314px;
+}
