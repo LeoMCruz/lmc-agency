@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale = 1, user-scalable = no">
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-    <link rel="stylesheet" href="css/styles.css">
-    <title>Ag Cruz</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Agência Cruz</title>
 </head>
 <body>
     <header class="login-header">
         <div class="header-logo">
-            <img src="/img/Logo.png" alt="Logo" class="logo">
+            <img src="../img/Logo.png" alt="Logo" class="logo">
             <span class="logo-text">Agência Cruz</span>
         </div>
         <div class="menu hidden">
@@ -20,17 +20,17 @@
         
     </header>
     <div id="main-container">
-        <div id="login-container">
+        <form id="login-container">
             <div id="login-content">
                 <h1>Entre com seu email e senha</h1>
                 <input type="email" id="email" name="email" required placeholder="Email">
                 <input type="password" id="password" name="password" required placeholder="Senha">
-                <p id="loginCheck">Texto que irá mudar</p>
-                <button type="submit" value="Entrar">Entrar</button>
+                <span id="loginMessage"></span>
+                <button type="submit">Entrar</button>
                 <hr>
                 <p id="createAccount">Não possui uma conta? <a href="/create-account">Criar</a></p>
             </div>
-        </div>
+        </form>
         <hr class="middle-between-containers">
         <div id="wellcome-container">
             <div id="wellcome-content">
@@ -38,6 +38,6 @@
             </div>
         </div>
     </div>
-    
+    <script src="../javaScript/login.js"></script>
 </body>
 </html>

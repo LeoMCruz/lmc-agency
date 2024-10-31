@@ -108,9 +108,9 @@ header{
     align-items: center;
 }
 
-#loginCheck{
-    margin-top: -30px;
-    margin-bottom: 30px;
+#loginMessage{
+    position: fixed;
+    margin-top: -15px;
 }
 
 #createAccount{
@@ -130,6 +130,7 @@ header{
     height: 70px;
     margin-bottom: 30px;
     cursor: pointer;
+    margin-top: 70px;
 }
 
 #login-content h1{
@@ -172,10 +173,10 @@ header{
     font-size: 35px;
 }
 
-#wellcome-content p{
-    
+#loginCheck{
     text-align: left;
-    padding-left: 30px;
+    display: block;
+    margin-bottom: 30px;
 }
 
 #login-container, #wellcome-container{
