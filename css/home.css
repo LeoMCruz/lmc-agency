@@ -51,6 +51,7 @@ footer{
 
 .card p{
     color: gray;
+    display: inline-block;
 }
 
 .rooms{
@@ -60,4 +61,29 @@ footer{
     background-color: #FE8100;
     padding: 3px;
     margin-right: 10px;
+}
+
+.rooms-gray{
+    display: inline-block;
+    color: black;
+    border-radius: 7px;
+    background-color: rgb(241, 240, 240);
+    padding: 3px;
+    margin-right: 10px;
+}
+
+#modal-price{
+    text-align: right;
+}
+
+#modal div{
+    padding: 20px;
+}
+
+#modal p{
+    color: gray;
+}
+
+dialog::backdrop{
+    background-color: rgba(0, 0, 0, 0.5);
 }

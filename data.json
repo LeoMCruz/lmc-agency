@@ -13,13 +13,13 @@
     {
         "image":"/img/house1.png",
         
-        "price":"R$ 500.000",
+        "price":"R$ 1.500.000",
         
-        "size":120,
+        "size":330,
         
-        "bedrooms":3,
+        "bedrooms":7,
         
-        "bathrooms":2    
+        "bathrooms":5    
     },
     {
         "image":"/img/house1.png",
