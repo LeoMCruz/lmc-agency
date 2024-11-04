@@ -4,55 +4,102 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale = 1, user-scalable = no">
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-    <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="shortcut icon" href="../img/favicon.ico" />
     <title>Agência Cruz</title>
 </head>
-<header>
-    <div class="header-logo">
-        <img src="../img/Logo.png" alt="Logo" class="logo">
-        <span class="logo-text">Agência Cruz</span>
-    </div>
-    <div class="menu">
-        <a href="#">Contato</a>
-        <a href="#" class="logout">Sair</a>
-    </div>
-</header>
 <body>
+    <header id="top">
+        <div class="main-content">
+            <div class="header-logo">
+                <img src="../img/Logo.png" alt="Logo" class="logo">
+                <span class="logo-text">Agência Cruz</span>
+            </div>
+            <div class="menu">
+                <a href="#">Contato</a>
+                <a href="#" class="logout">Sair</a>
+            </div>
+        </div>
+    </header>
     <div class="banner">
         <h1>Encontre as melhores casas, pontos comerciais e hoteis</h1>
     </div>
-    <h2>Nosses Serviços</h2>
-    <div class="ourServices">
-        
-        <div class="services">
-
-
+    <div class="main-content">
+        <h2 class="title-align">Nossos Serviços</h2>
+        <div class="ourServices">
+            <div class="services">
+                <div class="circle house">
+                </div>
+                <h2>Residenciais</h2>
+                <p>123 ofertas</p>
+            </div>
+            <div class="services">
+                <div class="circle building">
+                </div>
+                <h2>Comerciais</h2>
+                <p>93 ofertas</p>
+            </div>
+            <div class="services">
+                <div class="circle hotel">
+                </div>
+                <h2>Hoteis</h2>
+                <p>23 ofertas</p>
+            </div>
         </div>
-        <div class="services">
-
-        </div>
-        <div class="services">
-
+        <h2 class="title-align">Melhores Oportunidades</h2>
+        <div id="container-cards">
         </div>
     </div>
-    <h2>Melhores Oportunidades</h2>
-    <div id="container-cards">
-        <dialog id="modal">
-            <div>
-                <button id="close-modal">X</button>
-                <img id="modal-image">
-                <h3 id="modal-price"></h3>
+    <dialog id="modal">
+        <div class="main-div">
+            <button id="close-modal">X</button>
+            <img id="modal-image">
+            <h3 id="modal-price"></h3>
+            <div class="informations">
                 <span id="modal-bedrooms"></span>
                 <span id="modal-bathrooms"></span>
                 <p id="modal-size"></p>
-                <button class="rooms">Comprar</button>
+                <button class="buy">Comprar</button>
             </div>
-        </dialog>
-    </div>
+        </div>
+    </dialog>
+    <footer>
+        <div class="main-content">
+            <div class="contact align-footer">
+                <h3>Contato</h3>
+                <p>agenciacruz@contato.com</p>
+                <p>(44) 4444-4444</p>
+                <!-- <div class="midia">
+                    <div>
+                        <a href="">
+                            <img src="../img/facebook.svg" alt="facebook">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="">
+                            <img src="../img/instagram.svg" alt="instagram">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="">
+                            <img src="../img/youtube.svg" alt="youtube">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="">
+                            <img src="../img/twitter.svg" alt="twitter">
+                        </a>
+                    </div>
+                </div> -->
+            </div>
+            <p class="copyright">© Developed by Leonardo Cruz - All rights reserved</p>
+        </div>
+    </footer>
+    <a href="#" class="to-top">
+        <img src="../img/Back to top.png" alt="back to top">
+    </a>
     <script src="../javaScript/home.js"></script>
 </body>
-<footer>
-    <h1>oi</h1>
-</footer>
+
 </html>

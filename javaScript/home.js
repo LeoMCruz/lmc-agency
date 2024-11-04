@@ -4,6 +4,7 @@ function feedCards(){
         .then(items => {
             const containerCards = document.getElementById('container-cards');
             const modal = document.getElementById('modal');
+            modal.close();
             const modalSize = document.getElementById('modal-size');
             const modalBedrooms = document.getElementById('modal-bedrooms');
             const modalBathrooms = document.getElementById('modal-bathrooms');
@@ -20,10 +21,10 @@ function feedCards(){
                     modalImage.src = containerCard.image;
                     modalPrice.textContent = `${containerCard.price}`;
                     modalPrice.classList.add("#modal-price");
-                    modalSize.textContent = `${containerCard.size} m²`;
                     modalBedrooms.textContent = `${containerCard.bedrooms} Quartos `;
                     modalBedrooms.classList.add("rooms-gray");
                     modalBathrooms.textContent = `${containerCard.bathrooms} Banheiros`;
+                    modalSize.textContent = `${containerCard.size} m²`;
                     modalBathrooms.classList.add("rooms-gray");
                     modal.showModal();
                     modal.addEventListener('click', function(e) {
@@ -66,3 +67,11 @@ function feedCards(){
 
 feedCards();
 
+const toTop = document.querySelector(".to-top");
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 20) {
+    toTop.classList.add("active");
+  } else {
+    toTop.classList.remove("active");
+  }
+})

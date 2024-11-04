@@ -9,11 +9,13 @@
 header{
     background-color: black;
     color: white;
-    width: 100vw;
-    height: 109px;
+    height: 6.8125rem;
+}
+
+header div{
+    height: 100%;
     display: flex;
     flex-wrap: wrap;
-    padding: 0 6% 0 6%;
     justify-content: space-between;
     align-items: center;
     color: white;
@@ -168,9 +170,11 @@ header{
 
 #wellcome-content{
     position: absolute;
+    text-align: left;
     top: 10vh;
-    width: 500px;
+    width: 400px;
     font-size: 35px;
+    margin-left: 38px;
 }
 
 #loginCheck{

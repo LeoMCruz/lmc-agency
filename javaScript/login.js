@@ -19,10 +19,15 @@ function clearMessage(){
     loginMessage.textContent = "";
 }
 
+function redirect(){
+    window.location.replace('../pages/home.html');
+}
+
 function inputsCheck(e) {
     e.preventDefault();
     const emailValid = emailCheck(email.value);
     const passwordValid = passwordCheck(password.value);
+    let delay = 1000;
 
     if (email.value === "" || password.value === "") {
         loginMessage.textContent = "Todos os campos são obrigatórios";
@@ -39,6 +44,7 @@ function inputsCheck(e) {
     } else {
         loginMessage.textContent = "Dados Ok";
         loginMessage.style.color = "green";
+        setTimeout(redirect, delay);
     }
 }
 

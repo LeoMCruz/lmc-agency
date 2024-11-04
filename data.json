@@ -97,5 +97,16 @@
         "bedrooms":3,
         
         "bathrooms":2    
+    },
+    {
+        "image":"/img/banner.png",
+        
+        "price":"R$ 1.500.000",
+        
+        "size":800,
+        
+        "bedrooms":17,
+        
+        "bathrooms":9    
     }
 ]
