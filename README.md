@@ -81,4 +81,5 @@ When properties card clicked, it shows a **modal** with the info details, and to
 
 # :warning: Aditional info to Run the Project
 You must run the project using a local server, for example, the Live Server extension on VS Code, otherway, you gonna have a CORS problem, and the dynamic data on best opportunities wont load.
+For the best visualization, use 1728x1117 resolution.
 
