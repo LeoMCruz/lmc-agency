@@ -26,7 +26,7 @@ Shows a login form:
 	+ **Header:** Shows 2 more buttons than Login page:
 		+ **Contact**
 		+ **Logout**
-	+ **Our Services: ** Shows 3 cards with Real Estate services:
+	+ **Our Services:** Shows 3 cards with Real Estate services:
 		+ **Residential**
 		+  **Commercial**
 		+  **Hotel**
