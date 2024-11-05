@@ -36,7 +36,7 @@ function feedCards(){
                 price.textContent = containerCard.price;
 
                 const sizeHouse = document.createElement("p");
-                sizeHouse.textContent = containerCard.size + "m²";
+                sizeHouse.textContent = containerCard.size + " m²";
 
                 const bedroom = document.createElement("span");
                 bedroom.classList.add("rooms");
@@ -67,11 +67,11 @@ function feedCards(){
 
 feedCards();
 
-const toTop = document.querySelector(".to-top");
-window.addEventListener("scroll", () => {
-  if (window.scrollY > 20) {
-    toTop.classList.add("active");
-  } else {
-    toTop.classList.remove("active");
-  }
-})
+// const toTop = document.querySelector(".to-top");
+// window.addEventListener("scroll", () => {
+//   if (window.scrollY > 20) {
+//     toTop.classList.add("active");
+//   } else {
+//     toTop.classList.remove("active");
+//   }
+// })

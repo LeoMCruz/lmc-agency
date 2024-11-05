@@ -11,7 +11,7 @@
         "bathrooms":2    
     },
     {
-        "image":"/img/house1.png",
+        "image":"/img/house2.webp",
         
         "price":"R$ 1.500.000",
         
@@ -22,91 +22,69 @@
         "bathrooms":5    
     },
     {
-        "image":"/img/house1.png",
+        "image":"/img/house3.webp",
         
-        "price":"R$ 500.000",
+        "price":"R$ 3.123.000",
         
-        "size":120,
+        "size":970,
         
-        "bedrooms":3,
+        "bedrooms":9,
+        
+        "bathrooms":5    
+    },
+    {
+        "image":"/img/house4.jpg",
+        
+        "price":"R$ 300.000",
+        
+        "size":366,
+        
+        "bedrooms":5,
         
         "bathrooms":2    
     },
     {
-        "image":"/img/house1.png",
+        "image":"/img/house5.jpg",
         
-        "price":"R$ 500.000",
+        "price":"R$ 700.000",
         
-        "size":120,
+        "size":230,
         
-        "bedrooms":3,
+        "bedrooms":6,
+        
+        "bathrooms":4    
+    },
+    {
+        "image":"/img/house6.jpg",
+        
+        "price":"R$ 900.000",
+        
+        "size":897,
+        
+        "bedrooms":5,
         
         "bathrooms":2    
     },
     {
-        "image":"/img/house1.png",
+        "image":"/img/house7.jpeg",
         
-        "price":"R$ 500.000",
-        
-        "size":120,
-        
-        "bedrooms":3,
-        
-        "bathrooms":2    
-    },
-    {
-        "image":"/img/house1.png",
-        
-        "price":"R$ 500.000",
+        "price":"R$ 1.200.000",
         
         "size":120,
         
-        "bedrooms":3,
+        "bedrooms":4,
         
-        "bathrooms":2    
+        "bathrooms":3    
     },
     {
-        "image":"/img/house1.png",
+        "image":"/img/house8.jpg",
         
-        "price":"R$ 500.000",
+        "price":"R$ 456.500.000",
         
-        "size":120,
+        "size":1.564,
         
-        "bedrooms":3,
+        "bedrooms":11,
         
-        "bathrooms":2    
-    },
-    {
-        "image":"/img/house1.png",
-        
-        "price":"R$ 500.000",
-        
-        "size":120,
-        
-        "bedrooms":3,
-        
-        "bathrooms":2    
-    },
-    {
-        "image":"/img/house1.png",
-        
-        "price":"R$ 500.000",
-        
-        "size":120,
-        
-        "bedrooms":3,
-        
-        "bathrooms":2    
-    },
-    {
-        "image":"/img/banner.png",
-        
-        "price":"R$ 1.500.000",
-        
-        "size":800,
-        
-        "bedrooms":17,
-        
-        "bathrooms":9    
+        "bathrooms":6    
     }
 ]

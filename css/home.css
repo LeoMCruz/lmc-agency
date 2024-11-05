@@ -1,52 +1,55 @@
 footer{
-    background-color: black;
-    width: 100vw;
-    height: 277px;
+    margin-top: 6.25rem;
+    background-color: #1E1E1E;
+    height: 17.3125rem;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
 .banner{
     width: 100vw;
-    height: 878px;
+    height: 54.875rem;
     background-image: url("../img/banner.png");
     background-size: cover;
 }
 
 .ourServices{
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 1.875rem;
+    margin-bottom: 1.875rem;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
 }
 
 .services{
-    width: 246px;
-    height: 314px;
+    width: 15.375rem;
+    height: 19.625rem;
 }
 
 #container-cards{
-    margin-top: 30px;
+    margin-top: 1.875rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
 .card{
-    padding: 16px 0 16px 0;
-    width: 292px;
+    padding: 1rem 0 1rem 0;
+    width: 18.25rem;
     text-align: left;
     box-sizing: border-box;
 }
 
 .card img{
     max-width: 100%;
-    height: 197px;
-    border-radius: 8px;
+    height: 12.3125rem;
+    border-radius: 0.75rem;
     cursor: pointer;
 }
 
 .card h3{
-    margin-top: 9px;
+    margin-top: 0.5625rem;
 }
 
 .card p{
@@ -57,24 +60,25 @@ footer{
 .rooms{
     display: inline-block;
     color: white;
-    border-radius: 7px;
+    border-radius: 0.4375rem;
     background-color: #FE8100;
-    padding: 3px;
-    margin-right: 10px;
+    padding: 0.1875rem 0.5rem 0.1875rem 0.5rem;
+
+    margin-right: 0.625rem;
 }
 
 .rooms-gray{
     display: flex;
     color: black;
-    border-radius: 7px;
+    border-radius: 0.4375rem;
     background-color: rgb(241, 240, 240);
-    padding: 8px;
-    margin-right: 50px;
+    padding: 0.5rem;
+    margin-right: 3.125rem;
 }
 
 #modal-price{
     text-align: right;
-    padding: 12px;
+    padding: 0.75rem;
     width: 95%;
 }
 
@@ -84,7 +88,7 @@ footer{
     position: relative;
     width: 100%;
     height: 100%;
-    padding: 20px;
+    padding: 1.25rem;
     align-items: center;
     justify-content: center;
 }
@@ -92,7 +96,7 @@ footer{
 #modal p{
     color: gray;
     display: flex;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 dialog::backdrop{
@@ -101,10 +105,10 @@ dialog::backdrop{
 
 #modal{
     border: none;
-    width: 1088px;
+    width: 68rem;
     max-height: 80vh;
-    max-width: 800px;
-    border-radius: 20px;
+    max-width: 50rem;
+    border-radius: 1.25rem;
     position: fixed;
     display: flex;
     align-items: center;
@@ -115,22 +119,23 @@ dialog::backdrop{
 }
 
 #modal img{
+    margin-top: 30px;
     width: 95%;
     height: auto;
     object-fit: cover;
-    padding-top: 20px;
+    border-radius: 1.25rem;
 }
 
 .buy{
     display: flex;
     color: white;
     border: none;
-    border-radius: 7px;
+    border-radius: 0.4375rem;
     background-color: #FE8100;
-    padding: 8px;
-    margin-right: 10px;
+    padding: 0.5rem;
+    margin-right: 0.625rem;
     margin-left: auto;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 .informations{
@@ -142,10 +147,11 @@ dialog::backdrop{
 }
 
 #close-modal{
-    top: 10px;
-    right: 10px;
+    top: 0.3125rem;
+    right: 0.9375rem;
     position: absolute;
-    font-size: 20px;
+    font-size: 2.125rem;
+    color: #848383;
     border: none;
     background-color: transparent;
     cursor: pointer;
@@ -159,7 +165,7 @@ dialog::backdrop{
 
 .circle{
     width: 100%;
-    height: 246px;
+    height: 15.375rem;
     border-radius: 50%;
 }
 
@@ -183,7 +189,7 @@ dialog::backdrop{
 
 .services h2, p{
     text-align: center;
-    margin-top: 8px;
+    margin-top: 0.5rem;
 }
 
 .services p{
@@ -194,51 +200,55 @@ dialog::backdrop{
     position: absolute;
     text-align: left;
     top: 20vh;
-    width: 740px;
-    font-size: 35px;
-    margin-left: 220px;
+    width: 46.43rem;
+    font-size: 3.125rem;
+    margin-left: 13.75rem;
 }
 
 .title-align{
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding-top: 30px;
+    padding-top: 1.875rem;
+    font-size: 2.25rem;
 }
 
 .to-top{
     display: flex;
-    right: 32px;
-    bottom: 16px;
     align-items: center;
-    position: fixed;
+    /* position: fixed; */
     justify-content: center;
-    margin-right: 10px;
-    width: 60px;
-    height: 60px;
+    margin-top: auto;
+    margin-bottom: 1.375rem;
+    margin-right: 0.625rem;
+    width: 3.75rem;
+    height: 3.75rem;
     text-decoration: none;
-    opacity:0;
+    /* opacity:0;
     pointer-events: none;
-    transition: all .4s;
+    transition: all .4s; */
 }   
 
-.to-top.active {
+/* css  for scroll to top button  - not used*/
+
+/* .to-top.active {
     display: block;
-    bottom:32px;
+    bottom:2rem;
     pointer-events: auto;
     opacity:1;
-}
+} */
 
 html {
     scroll-behavior: smooth;
 }
 
 .contact{
-    display: flex;
     position: relative;
-    border: 1px solid white;
-    width: 221px;
-    height: 176px;
+    display: flex;
+    flex-direction: column;
+    color: #E9ECF2;
+    width: 13.8125rem;
+    height: 11rem;
 }
 .contact div{
     display: inline-block;
@@ -246,10 +256,14 @@ html {
 
 .contact h3{
     color: #FE8100;
+    bottom: auto;
+    margin-bottom: 1.25rem;
 }
 
 .contact p{
     text-align: left;
+    bottom: auto;
+    margin-top: 0.375rem;
 }
 
 .midia{
@@ -257,13 +271,13 @@ html {
     display: flex;
     justify-content: space-around;
     width: 100%;
+    top: auto;
     bottom: 0;
 }
 
 .midia div{
-    width: 30px;
-    height: 90%;
-    margin-right: 10px;
+    width: 1.4375rem;
+    margin-right: 1.25rem;
 }
 
 .midia img{
@@ -275,20 +289,24 @@ html {
 .copyright{
     display: flex;
     align-items: center;
+    margin-top: auto;
     text-align: center;
-    color: white;
-    flex: 1 1 100%;
+    color: #E9ECF2;
 }
 
 .main-content{
-    margin: 0 220px 0 220px;
+    margin: 0 13.75rem 0 13.75rem;
 }
 
-.align-footer{
-    position: relative;
+.main-content h2{
+    font-weight: normal;
+}
+
+.footer-content{
+    margin: 0 13.75rem 0 13.75rem;
+    align-self: center;
     color: white;
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
 }
